@@ -27,6 +27,7 @@
                    displayName="Important Files"
                    projectFiles="false"
                    kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>images/080f921b_PutumayoPresents_LatinJazz.png</itemPath>
       <itemPath>Makefile</itemPath>
       <itemPath>readme.txt</itemPath>
     </logicalFolder>
@@ -40,6 +41,9 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <linkerTool>
+          <commandLine>-lpng</commandLine>
+        </linkerTool>
       </compileType>
       <item path="include/lib.h" ex="false" tool="3" flavor2="0">
       </item>
