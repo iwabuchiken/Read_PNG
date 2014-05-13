@@ -17,6 +17,8 @@ pushd /home/iwabuchik/WORKS/WS/WS_Prog/Read_PNG/dist/Debug/GNU-Linux-x86/
 
 /home/iwabuchik/WORKS/WS/WS_Prog/Read_PNG/dist/Debug/GNU-Linux-x86/read_png
 
+/home/iwabuchik/WORKS/WS/WS_Prog/Read_PNG/dist/Debug/GNU-Linux-x86/read_png images/download-jpg.png images/download-jpg.png.copy
+
 ------------------------
 
     Ignored by file system

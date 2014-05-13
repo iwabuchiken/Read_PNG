@@ -5,7 +5,10 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>include/lib.h</itemPath>
+      <itemPath>include/pnginfo.h</itemPath>
       <itemPath>include/pnglib.h</itemPath>
+      <itemPath>include/pngstruct.h</itemPath>
+      <itemPath>include/readpng.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -17,6 +20,7 @@
       <itemPath>lib.c</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>pnglib.c</itemPath>
+      <itemPath>readpng.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -29,6 +33,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>images/080f921b_PutumayoPresents_LatinJazz.png</itemPath>
       <itemPath>Makefile</itemPath>
+      <itemPath>images/download-jpg.png</itemPath>
       <itemPath>readme.txt</itemPath>
     </logicalFolder>
   </logicalFolder>
@@ -41,19 +46,30 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <commandLine>-g</commandLine>
+        </ccTool>
         <linkerTool>
           <commandLine>-lpng</commandLine>
         </linkerTool>
       </compileType>
       <item path="include/lib.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/pnginfo.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/pnglib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/pngstruct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/readpng.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="lib.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="pnglib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="readpng.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -78,13 +94,21 @@
       </compileType>
       <item path="include/lib.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/pnginfo.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/pnglib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/pngstruct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/readpng.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="lib.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="pnglib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="readpng.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -37,7 +37,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/lib.o \
 	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/pnglib.o
+	${OBJECTDIR}/pnglib.o \
+	${OBJECTDIR}/readpng.o
 
 
 # C Compiler Flags
@@ -78,6 +79,11 @@ ${OBJECTDIR}/pnglib.o: pnglib.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/pnglib.o pnglib.c
+
+${OBJECTDIR}/readpng.o: readpng.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/readpng.o readpng.c
 
 # Subprojects
 .build-subprojects:
